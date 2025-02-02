@@ -11,3 +11,9 @@ orders[2]+=5;
 let totalorders = orders.reduce((sum,qty) => sum+qty,0);
 console.log("updated orders",orders);
 console.log ("total order count",totalorders); 
+
+// Task 3 tracking employee performance data. //
+let employee = {name: "itachi Uchiha", role: "Agent", performance:97, isActive: true}
+employee.performancescore = 100;
+employee.promotionEligible = true;
+console.log("updated employee", employee);
