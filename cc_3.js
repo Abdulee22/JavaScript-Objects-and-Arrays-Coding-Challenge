@@ -27,3 +27,9 @@ let feedback = [
 }]
 feedback.push({ customerName: "Goku", feedbacktext:"amazing service", rating:7})
 console.log ("customer feedback", feedback);
+
+// Task 5  developing a system to track inventory details.
+let inventory = { itemName : "ps5", stockCount: 15 , price: 500,
+    calculateTotalValue: function(){return this.stockCount* this.price;}};
+    console.log("inventory details",inventory);
+    console.log("total inventory value",inventory.calculateTotalValue());
