@@ -17,3 +17,13 @@ let employee = {name: "itachi Uchiha", role: "Agent", performance:97, isActive: 
 employee.performancescore = 100;
 employee.promotionEligible = true;
 console.log("updated employee", employee);
+
+// Task 4  collecting customer feedback data. //
+
+let feedback = [
+    {customerName: "Danny Fantom", feedbacktext:"hard worker!!", rating:8},
+    {customerName: "Tony Stark", feedbacktext:"Vary smart but lazy", rating:6},
+    {customerName: "Bruce Wayne", feedbacktext:"fast and efficient!!", rating:10
+}]
+feedback.push({ customerName: "Goku", feedbacktext:"amazing service", rating:7})
+console.log ("customer feedback", feedback);
